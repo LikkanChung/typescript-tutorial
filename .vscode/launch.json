@@ -11,11 +11,8 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}\\hello-world\\src\\index.ts",
-            "preLaunchTask": "tsc: build - hello-world\\tsconfig.json",
-            "outFiles": [
-                "${workspaceFolder}/**/*.js"
-            ]
+            "program": "${file}",
+            "preLaunchTask": "tsc: build - hello-wolrd/tsconfig.json"            
         }
     ]
 }
